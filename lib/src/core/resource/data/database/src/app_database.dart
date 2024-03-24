@@ -1,6 +1,6 @@
-import 'package:base_starter/src/core/resource/data/database/database.dart';
-import 'package:base_starter/src/core/resource/data/database/src/tables/todos_table.dart';
 import 'package:drift/drift.dart';
+import 'package:innovestage/src/core/resource/data/database/database.dart';
+import 'package:innovestage/src/core/resource/data/database/src/tables/todos_table.dart';
 
 part 'app_database.g.dart';
 

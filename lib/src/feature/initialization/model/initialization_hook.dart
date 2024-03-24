@@ -1,5 +1,5 @@
-import 'package:base_starter/src/feature/initialization/logic/initialization_processor.dart';
-import 'package:base_starter/src/feature/initialization/model/dependencies.dart';
+import 'package:innovestage/src/feature/initialization/logic/initialization_processor.dart';
+import 'package:innovestage/src/feature/initialization/model/dependencies.dart';
 
 /// A hook for the initialization process.
 /// The [onInit] is called before the initialization process starts.

@@ -1,4 +1,4 @@
-import 'package:base_starter/src/feature/initialization/model/environment.dart';
+import 'package:innovestage/src/feature/initialization/model/environment.dart';
 
 /// Environment store
 final class EnvironmentStore {

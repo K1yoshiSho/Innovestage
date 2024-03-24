@@ -1,13 +1,13 @@
 import 'dart:io';
 
-import 'package:base_starter/src/app/router/router.dart';
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/feature/inspector/view/talker_view.dart'
-    as view;
 import 'package:feedback_plus/feedback_plus.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/app/router/router.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/inspector/view/talker_view.dart'
+    as view;
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:talker_flutter/talker_flutter.dart';

@@ -1,9 +1,9 @@
-import 'package:base_starter/src/app/model/app_theme.dart';
-import 'package:base_starter/src/feature/settings/data/locale/locale_repository.dart';
-import 'package:base_starter/src/feature/settings/data/theme/theme_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:innovestage/src/app/model/app_theme.dart';
+import 'package:innovestage/src/feature/settings/data/locale/locale_repository.dart';
+import 'package:innovestage/src/feature/settings/data/theme/theme_repository.dart';
 
 part 'settings_bloc.freezed.dart';
 

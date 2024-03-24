@@ -1,7 +1,7 @@
-import 'package:base_starter/src/common/configs/style/themes/dark.dart';
-import 'package:base_starter/src/common/configs/style/themes/light.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/common/configs/style/themes/dark.dart';
+import 'package:innovestage/src/common/configs/style/themes/light.dart';
 
 /// An immutable class that holds properties needed
 /// to build a [ThemeData] for the app.

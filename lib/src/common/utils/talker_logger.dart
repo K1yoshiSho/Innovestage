@@ -1,8 +1,8 @@
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/feature/initialization/model/environment_store.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/initialization/model/environment_store.dart';
 import 'package:talker_bloc_logger/talker_bloc_logger.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 

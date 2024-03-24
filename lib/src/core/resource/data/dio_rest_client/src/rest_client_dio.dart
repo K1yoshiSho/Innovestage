@@ -1,5 +1,5 @@
-import 'package:base_starter/src/core/resource/data/dio_rest_client/rest_client.dart';
 import 'package:dio/dio.dart';
+import 'package:innovestage/src/core/resource/data/dio_rest_client/rest_client.dart';
 import 'package:meta/meta.dart';
 
 /// Rest client that uses [Dio] as HTTP library.

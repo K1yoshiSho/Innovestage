@@ -1,4 +1,4 @@
-import 'package:base_starter/src/feature/settings/bloc/settings_bloc.dart';
+import 'package:innovestage/src/feature/settings/bloc/settings_bloc.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

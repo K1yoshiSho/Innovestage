@@ -1,7 +1,8 @@
 import 'dart:async';
-import 'package:base_starter/src/common/utils/global_variables.dart';
+
 import 'package:drift/drift.dart';
 import 'package:drift/wasm.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
 
 QueryExecutor createExecutor() => DatabaseConnection.delayed(
       Future(() async {

@@ -1,7 +1,7 @@
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
-import 'package:base_starter/src/feature/inspector/monitor/monitor_info_page.dart';
-import 'package:base_starter/src/feature/inspector/utils/get_data_color.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/feature/inspector/monitor/monitor_info_page.dart';
+import 'package:innovestage/src/feature/inspector/utils/get_data_color.dart';
 // ignore: implementation_imports
 import 'package:talker_flutter/src/ui/widgets/base_card.dart';
 import 'package:talker_flutter/talker_flutter.dart';

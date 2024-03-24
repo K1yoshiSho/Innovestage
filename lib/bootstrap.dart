@@ -1,14 +1,14 @@
 import 'dart:async';
 
-import 'package:base_starter/src/app/logic/app_runner.dart';
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/common/utils/talker_logger.dart';
-import 'package:base_starter/src/feature/initialization/logic/initialization_processor.dart';
-import 'package:base_starter/src/feature/initialization/model/dependencies.dart';
-import 'package:base_starter/src/feature/initialization/model/initialization_hook.dart';
-import 'package:base_starter/src/feature/initialization/widget/initialization_failed_app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:innovestage/src/app/logic/app_runner.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/common/utils/talker_logger.dart';
+import 'package:innovestage/src/feature/initialization/logic/initialization_processor.dart';
+import 'package:innovestage/src/feature/initialization/model/dependencies.dart';
+import 'package:innovestage/src/feature/initialization/model/initialization_hook.dart';
+import 'package:innovestage/src/feature/initialization/widget/initialization_failed_app.dart';
 
 Future<void> bootstrap() async {
   InitializationHook? hook;

@@ -1,11 +1,11 @@
-import 'package:base_starter/src/common/configs/constants.dart';
-import 'package:base_starter/src/common/ui/pages/restart_wrapper.dart';
-import 'package:base_starter/src/common/ui/widgets/dialogs/toaster.dart';
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/feature/initialization/model/environment.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:innovestage/src/common/configs/constants.dart';
+import 'package:innovestage/src/common/ui/pages/restart_wrapper.dart';
+import 'package:innovestage/src/common/ui/widgets/dialogs/toaster.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/initialization/model/environment.dart';
 
 final class ChangeEnvironmentDialog {
   const ChangeEnvironmentDialog();

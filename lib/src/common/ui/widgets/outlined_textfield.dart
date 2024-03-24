@@ -1,9 +1,9 @@
 // ignore_for_file: inference_failure_on_function_return_type
 
-// import 'package:base_starter/src/core/utils/extensions/context_extension.dart';
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+// import 'package:innovestage/src/core/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 
 /// `OutlinedTextField` is a custom widget which is used for return custom textfield with custom style.
 class OutlinedTextfield extends StatelessWidget {

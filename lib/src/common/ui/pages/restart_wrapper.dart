@@ -1,7 +1,7 @@
-import 'package:base_starter/src/app/router/router.dart';
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/feature/home/ui/pages/home.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/app/router/router.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/home/ui/pages/home.dart';
 
 class RestartWrapper extends StatefulWidget {
   const RestartWrapper({required this.child});

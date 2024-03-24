@@ -2,7 +2,7 @@ ID_APPLICATION=""
 
 # Функция для вывода инструкции по использованию скрипта
 usage() {
-    echo "Использование: $0 --id [ID приложения]. Пример: --id com.company.app"
+    echo "Использование: $0 --id [ID приложения]. Пример: --id com.company. Имя приложения добавится автоматически."
     exit 1
 }
 
@@ -13,7 +13,7 @@ while [[ $# -gt 0 ]]; do
     case $key in
         --id)
         if [ -z "$2" ]; then
-            echo "Ошибка: после --id не указан ID для вашего приложения: (com.company.app)."
+            echo "Ошибка: после --id не указан ID для вашего приложения: (com.company). Имя приложения добавится автоматически."
             usage
             exit 1
         fi
@@ -35,5 +35,5 @@ if [ -z "$ID_APPLICATION" ]; then
     exit 1
 else
     echo "Создание приложения для: $ID_APPLICATION"
-    fvm flutter create . --org $ID_APPLICATION --platforms ios,android
+    fvm flutter create . --org $ID_APPLICATION --platforms ios,android,web
 fi

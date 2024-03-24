@@ -1,11 +1,11 @@
-import 'package:base_starter/src/common/ui/pages/error_router_page.dart';
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/feature/home/ui/pages/home.dart';
-import 'package:base_starter/src/feature/inspector/inspector_page.dart';
-import 'package:base_starter/src/feature/settings/ui/settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
+import 'package:innovestage/src/common/ui/pages/error_router_page.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/home/ui/pages/home.dart';
+import 'package:innovestage/src/feature/inspector/inspector_page.dart';
+import 'package:innovestage/src/feature/settings/ui/settings.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
 export 'package:go_router/go_router.dart';

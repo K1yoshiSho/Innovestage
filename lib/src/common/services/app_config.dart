@@ -1,5 +1,5 @@
-import 'package:base_starter/src/feature/settings/data/configs/app_configs_data_source.dart';
-import 'package:base_starter/src/feature/settings/data/configs/app_configs_repository.dart';
+import 'package:innovestage/src/feature/settings/data/configs/app_configs_data_source.dart';
+import 'package:innovestage/src/feature/settings/data/configs/app_configs_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppConfigsService {

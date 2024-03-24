@@ -1,6 +1,6 @@
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/common/utils/talker_logger.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/common/utils/talker_logger.dart';
 
 class ProviderLoggerObserver extends ProviderObserver {
   @override

@@ -1,9 +1,9 @@
-import 'package:base_starter/src/feature/initialization/logic/initialization_steps.dart';
-import 'package:base_starter/src/feature/initialization/model/dependencies.dart';
-import 'package:base_starter/src/feature/initialization/model/environment_store.dart';
-import 'package:base_starter/src/feature/initialization/model/initialization_hook.dart';
-import 'package:base_starter/src/feature/initialization/model/initialization_progress.dart';
 import 'package:flutter/foundation.dart';
+import 'package:innovestage/src/feature/initialization/logic/initialization_steps.dart';
+import 'package:innovestage/src/feature/initialization/model/dependencies.dart';
+import 'package:innovestage/src/feature/initialization/model/environment_store.dart';
+import 'package:innovestage/src/feature/initialization/model/initialization_hook.dart';
+import 'package:innovestage/src/feature/initialization/model/initialization_progress.dart';
 
 part 'initialization_factory.dart';
 

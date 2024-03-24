@@ -1,5 +1,5 @@
-import 'package:base_starter/src/common/services/app_config.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:innovestage/src/common/services/app_config.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'app_config.freezed.dart';

@@ -1,11 +1,11 @@
 // ignore_for_file: implementation_imports
 
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
 import 'package:feedback_plus/src/better_feedback.dart';
 import 'package:feedback_plus/src/l18n/translation.dart';
 import 'package:feedback_plus/src/theme/feedback_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 
 /// Prompt the user for feedback using `StringFeedback`.
 Widget simpleFeedbackBuilder(

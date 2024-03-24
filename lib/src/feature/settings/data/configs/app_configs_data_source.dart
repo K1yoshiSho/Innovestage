@@ -1,4 +1,4 @@
-import 'package:base_starter/src/common/utils/preferences_dao.dart';
+import 'package:innovestage/src/common/utils/preferences_dao.dart';
 
 abstract interface class AppConfigsDataSource {
   /// `Getters`

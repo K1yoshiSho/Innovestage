@@ -1,5 +1,5 @@
-import 'package:base_starter/src/feature/initialization/logic/base_config.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/feature/initialization/logic/base_config.dart';
 
 /// `EnvironmentScope` is an entry point to the environment scope.
 class EnvironmentScope extends InheritedWidget {

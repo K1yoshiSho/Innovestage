@@ -1,5 +1,5 @@
-import 'package:base_starter/src/app/model/app_theme.dart';
-import 'package:base_starter/src/feature/settings/data/theme/theme_datasource.dart';
+import 'package:innovestage/src/app/model/app_theme.dart';
+import 'package:innovestage/src/feature/settings/data/theme/theme_datasource.dart';
 
 /// Theme repository that persists and retrieves theme information
 abstract interface class ThemeRepository {

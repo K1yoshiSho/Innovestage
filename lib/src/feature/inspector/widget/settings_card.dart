@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_positional_boolean_parameters, inference_failure_on_function_return_type, implementation_imports
 
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 import 'package:talker_flutter/src/ui/theme/default_theme.dart';
 import 'package:talker_flutter/src/ui/widgets/base_card.dart';
 import 'package:talker_flutter/talker_flutter.dart';

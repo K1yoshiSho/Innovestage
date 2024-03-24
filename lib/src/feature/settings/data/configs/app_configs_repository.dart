@@ -1,4 +1,4 @@
-import 'package:base_starter/src/feature/settings/data/configs/app_configs_data_source.dart';
+import 'package:innovestage/src/feature/settings/data/configs/app_configs_data_source.dart';
 
 abstract interface class AppConfigsRepository {
   /// Get performance tracking status

@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:base_starter/src/app/model/app_theme.dart';
-import 'package:base_starter/src/common/utils/preferences_dao.dart';
 import 'package:flutter/material.dart' show ThemeMode, Color;
+import 'package:innovestage/src/app/model/app_theme.dart';
+import 'package:innovestage/src/common/utils/preferences_dao.dart';
 
 /// `ThemeDataSource` is a data source that provides theme data.
 /// This is used to set and get theme.

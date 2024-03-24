@@ -1,5 +1,5 @@
-import 'package:base_starter/src/feature/initialization/model/dependencies.dart';
-import 'package:base_starter/src/feature/initialization/model/environment_store.dart';
+import 'package:innovestage/src/feature/initialization/model/dependencies.dart';
+import 'package:innovestage/src/feature/initialization/model/environment_store.dart';
 
 /// A class which represents the initialization progress.
 final class InitializationProgress {

@@ -1,5 +1,5 @@
-import 'package:base_starter/src/common/utils/extensions/colors_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/common/utils/extensions/colors_extension.dart';
 
 /// `getBaseDarkTheme` is a function that returns a Dark `ThemeData` for the app.
 ThemeData getBaseDarkTheme({required Color seed}) {

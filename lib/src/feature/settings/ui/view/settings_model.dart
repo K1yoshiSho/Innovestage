@@ -1,5 +1,5 @@
-import 'package:base_starter/src/common/services/page_model.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/common/services/page_model.dart';
 
 final class SettingsPageModel extends PageModel {
   int tapNumber = 0;

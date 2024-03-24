@@ -1,15 +1,15 @@
 import 'dart:async';
 
-import 'package:base_starter/src/common/configs/constants.dart';
-import 'package:base_starter/src/common/services/app_config.dart';
-import 'package:base_starter/src/feature/initialization/model/environment.dart';
-import 'package:base_starter/src/feature/initialization/model/initialization_progress.dart';
-import 'package:base_starter/src/feature/settings/bloc/settings_bloc.dart';
-import 'package:base_starter/src/feature/settings/data/locale/locale_datasource.dart';
-import 'package:base_starter/src/feature/settings/data/locale/locale_repository.dart';
-import 'package:base_starter/src/feature/settings/data/theme/theme_datasource.dart';
-import 'package:base_starter/src/feature/settings/data/theme/theme_mode_codec.dart';
-import 'package:base_starter/src/feature/settings/data/theme/theme_repository.dart';
+import 'package:innovestage/src/common/configs/constants.dart';
+import 'package:innovestage/src/common/services/app_config.dart';
+import 'package:innovestage/src/feature/initialization/model/environment.dart';
+import 'package:innovestage/src/feature/initialization/model/initialization_progress.dart';
+import 'package:innovestage/src/feature/settings/bloc/settings_bloc.dart';
+import 'package:innovestage/src/feature/settings/data/locale/locale_datasource.dart';
+import 'package:innovestage/src/feature/settings/data/locale/locale_repository.dart';
+import 'package:innovestage/src/feature/settings/data/theme/theme_datasource.dart';
+import 'package:innovestage/src/feature/settings/data/theme/theme_mode_codec.dart';
+import 'package:innovestage/src/feature/settings/data/theme/theme_repository.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

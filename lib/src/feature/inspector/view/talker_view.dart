@@ -1,16 +1,16 @@
 // ignore_for_file: implementation_imports
 
-import 'package:base_starter/src/common/ui/widgets/dialogs/toaster.dart';
-import 'package:base_starter/src/common/utils/extensions/context_extension.dart';
-import 'package:base_starter/src/feature/inspector/actions/actions_bottom_sheet.dart';
-import 'package:base_starter/src/feature/inspector/monitor/talker_monitor_page.dart';
-import 'package:base_starter/src/feature/inspector/utils/get_data_color.dart';
-import 'package:base_starter/src/feature/inspector/widget/data_card.dart';
-import 'package:base_starter/src/feature/inspector/widget/settings_bottom_sheet.dart';
-import 'package:base_starter/src/feature/inspector/widget/view_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:group_button/group_button.dart';
+import 'package:innovestage/src/common/ui/widgets/dialogs/toaster.dart';
+import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/feature/inspector/actions/actions_bottom_sheet.dart';
+import 'package:innovestage/src/feature/inspector/monitor/talker_monitor_page.dart';
+import 'package:innovestage/src/feature/inspector/utils/get_data_color.dart';
+import 'package:innovestage/src/feature/inspector/widget/data_card.dart';
+import 'package:innovestage/src/feature/inspector/widget/settings_bottom_sheet.dart';
+import 'package:innovestage/src/feature/inspector/widget/view_app_bar.dart';
 import 'package:talker_flutter/src/controller/controller.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 

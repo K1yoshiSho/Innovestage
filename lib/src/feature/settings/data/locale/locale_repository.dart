@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:base_starter/src/feature/settings/data/locale/locale_datasource.dart';
+import 'package:innovestage/src/feature/settings/data/locale/locale_datasource.dart';
 
 /// Repository that manages locale information
 abstract interface class LocaleRepository {

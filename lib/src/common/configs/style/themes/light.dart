@@ -1,5 +1,5 @@
-import 'package:base_starter/src/common/utils/extensions/colors_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/common/utils/extensions/colors_extension.dart';
 
 /// `getBaseLightTheme` is a function that returns a Light `ThemeData` for the app.
 ThemeData getBaseLightTheme({required Color seed}) {

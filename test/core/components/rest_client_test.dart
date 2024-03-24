@@ -3,10 +3,10 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:base_starter/src/core/resource/data/dio_rest_client/rest_client.dart';
-import 'package:base_starter/src/core/resource/data/dio_rest_client/src/rest_client_dio.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:innovestage/src/core/resource/data/dio_rest_client/rest_client.dart';
+import 'package:innovestage/src/core/resource/data/dio_rest_client/src/rest_client_dio.dart';
 
 import 'auth_interceptor_test.dart' as auth_interceptor_test;
 

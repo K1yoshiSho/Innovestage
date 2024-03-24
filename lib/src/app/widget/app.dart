@@ -1,15 +1,15 @@
-import 'package:base_starter/src/app/router/router.dart';
-import 'package:base_starter/src/app/widget/material_context.dart';
-import 'package:base_starter/src/common/configs/constants.dart';
-import 'package:base_starter/src/common/utils/global_variables.dart';
-import 'package:base_starter/src/common/utils/talker_logger.dart';
-import 'package:base_starter/src/feature/initialization/logic/base_config.dart';
-import 'package:base_starter/src/feature/initialization/model/dependencies.dart';
-import 'package:base_starter/src/feature/initialization/model/environment.dart';
-import 'package:base_starter/src/feature/initialization/widget/dependencies_scope.dart';
-import 'package:base_starter/src/feature/initialization/widget/environment_scope.dart';
-import 'package:base_starter/src/feature/settings/ui/settings.dart';
 import 'package:flutter/material.dart';
+import 'package:innovestage/src/app/router/router.dart';
+import 'package:innovestage/src/app/widget/material_context.dart';
+import 'package:innovestage/src/common/configs/constants.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/common/utils/talker_logger.dart';
+import 'package:innovestage/src/feature/initialization/logic/base_config.dart';
+import 'package:innovestage/src/feature/initialization/model/dependencies.dart';
+import 'package:innovestage/src/feature/initialization/model/environment.dart';
+import 'package:innovestage/src/feature/initialization/widget/dependencies_scope.dart';
+import 'package:innovestage/src/feature/initialization/widget/environment_scope.dart';
+import 'package:innovestage/src/feature/settings/ui/settings.dart';
 
 /// [App] is an entry point to the application.
 ///

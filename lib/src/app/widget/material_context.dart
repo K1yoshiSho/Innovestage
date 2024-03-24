@@ -1,14 +1,14 @@
-import 'package:base_starter/src/app/router/router.dart';
-import 'package:base_starter/src/common/ui/widgets/other/feedback_body.dart';
-import 'package:base_starter/src/core/localization/localization.dart';
-import 'package:base_starter/src/feature/initialization/widget/environment_scope.dart';
-import 'package:base_starter/src/feature/settings/state/app_config.dart';
-import 'package:base_starter/src/feature/settings/ui/settings.dart';
 import 'package:feedback_plus/feedback_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:innovestage/src/app/router/router.dart';
+import 'package:innovestage/src/common/ui/widgets/other/feedback_body.dart';
+import 'package:innovestage/src/core/localization/localization.dart';
+import 'package:innovestage/src/feature/initialization/widget/environment_scope.dart';
+import 'package:innovestage/src/feature/settings/state/app_config.dart';
+import 'package:innovestage/src/feature/settings/ui/settings.dart';
 import 'package:performance/performance.dart';
 
 /// [MaterialContext] is an entry point to the material context.
