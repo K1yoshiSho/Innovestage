@@ -5,6 +5,7 @@ import 'package:innovestage/src/app/router/router.dart';
 import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 import 'package:innovestage/src/common/utils/extensions/string_extension.dart';
 import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/auth/ui/pages/registration/registration.dart';
 import 'package:innovestage/src/feature/home/state/counter.dart';
 import 'package:innovestage/src/feature/inspector/inspector_page.dart';
 import 'package:innovestage/src/feature/settings/ui/settings.dart';
@@ -30,6 +31,9 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _init() async {
     fToast.init(navigatorKey.currentContext!);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      context.pushNamed(RegistrationPage.name);
+    });
   }
 
   @override

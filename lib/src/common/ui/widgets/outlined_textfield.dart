@@ -28,6 +28,7 @@ class OutlinedTextfield extends StatelessWidget {
   final double? radius;
   final bool autofocusEnabled;
   final Function()? onEditingComplete;
+  final EdgeInsetsGeometry? contentPadding;
 
   // Constructor method to initialize the above input parameters.
   const OutlinedTextfield({
@@ -52,6 +53,7 @@ class OutlinedTextfield extends StatelessWidget {
     this.radius,
     this.autofocusEnabled = false,
     this.onEditingComplete,
+    this.contentPadding,
   });
 
   // This is a FocusNode variable which can be used to control the focus on the text field if needed.
@@ -83,19 +85,10 @@ class OutlinedTextfield extends StatelessWidget {
         minLines: minLines,
         onChanged: onChanged,
         obscureText: obsureText ?? false,
-        // These properties define the look and feel of the text field.
         decoration: InputDecoration(
           hintText: hintText,
           hintTextDirection: TextDirection.ltr,
           labelText: (labelText != "") ? labelText ?? hintText : null,
-          // hintStyle: AppTextStyle.bodyMedium400(context).copyWith(
-          //   color: AppPalette.gray600,
-          // ),
-          // labelStyle: AppTextStyle.bodyMedium400(context).copyWith(
-          //   color: enabled ?? true
-          //       ? context.theme.appColors.text
-          //       : AppPalette.gray600,
-          // ),
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(radius ?? 16),
             borderSide: BorderSide(
@@ -140,7 +133,8 @@ class OutlinedTextfield extends StatelessWidget {
           fillColor: !(enabled ?? true)
               ? context.theme.colors.card
               : context.theme.colors.background,
-          contentPadding: const EdgeInsets.only(top: 15, bottom: 15, left: 15),
+          contentPadding: contentPadding ??
+              const EdgeInsets.only(top: 15, bottom: 15, left: 15, right: 15),
         ),
       );
 }

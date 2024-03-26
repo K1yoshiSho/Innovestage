@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:innovestage/src/common/configs/style/themes/dark.dart';
 import 'package:innovestage/src/common/configs/style/themes/light.dart';
+import 'package:innovestage/src/common/constants/colors.dart';
 
 /// An immutable class that holds properties needed
 /// to build a [ThemeData] for the app.
@@ -28,7 +29,7 @@ final class AppTheme with Diagnosticable {
     mode: PlatformDispatcher.instance.platformBrightness == Brightness.dark
         ? ThemeMode.dark
         : ThemeMode.light,
-    seed: Colors.blue,
+    seed: AppColors.primary,
   );
 
   /// The [ThemeData] for this [AppTheme].

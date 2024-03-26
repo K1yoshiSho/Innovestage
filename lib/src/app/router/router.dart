@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:innovestage/src/common/ui/pages/error_router_page.dart';
 import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/feature/auth/ui/pages/registration/registration.dart';
 import 'package:innovestage/src/feature/home/ui/pages/home.dart';
 import 'package:innovestage/src/feature/inspector/inspector_page.dart';
 import 'package:innovestage/src/feature/settings/ui/settings.dart';
@@ -93,6 +94,13 @@ GoRouter createRouter() => GoRouter(
               path: SettingsPage.routePath,
               pageBuilder: (context, pathParameters) => const CupertinoPage(
                 child: SettingsPage(),
+              ),
+            ),
+            GoRoute(
+              name: RegistrationPage.name,
+              path: RegistrationPage.routePath,
+              pageBuilder: (context, pathParameters) => const CupertinoPage(
+                child: RegistrationPage(),
               ),
             ),
             GoRoute(

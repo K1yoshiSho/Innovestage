@@ -172,5 +172,8 @@
          "number": {}
       }
    },
-   "performance_tracker": "Performance tracking"
+   "performance_tracker": "Performance tracking",
+   "sign_up": "Sign up",
+   "login": "Sign in"
+
 }
