@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:innovestage/src/app/model/app_theme.dart';
 import 'package:innovestage/src/app/router/router.dart';
 import 'package:innovestage/src/common/services/page_model.dart';
-import 'package:innovestage/src/common/ui/widgets/textfields/filled_textfield.dart';
-import 'package:innovestage/src/common/ui/widgets/textfields/outlined_textfield.dart';
 import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 import 'package:innovestage/src/core/assets/generated/assets.gen.dart';
 import 'package:innovestage/src/core/assets/icons/rounded_corners.dart';
-import 'package:innovestage/src/feature/settings/ui/settings.dart';
 
 part 'view/registration_model.dart';
 part 'view/registration_view.dart';

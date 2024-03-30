@@ -4,7 +4,11 @@ import 'package:innovestage/src/app/model/app_theme.dart';
 import 'package:innovestage/src/common/ui/widgets/other/feedback_body.dart';
 import 'package:innovestage/src/core/localization/localization.dart';
 
-TransitionBuilder betterFeedbackBuilder(AppTheme theme, Locale locale) => (
+TransitionBuilder betterFeedbackBuilder({
+  required AppTheme theme,
+  required Locale locale,
+}) =>
+    (
       context,
       child,
     ) =>

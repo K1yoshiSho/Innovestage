@@ -42,7 +42,7 @@ class _RegistrationView extends StatelessWidget {
                   ),
                 ),
                 const Gap(40),
-                TextField(),
+                const TextField(),
                 // FilledTextfield(
                 //   textController: null,
                 //   hintText: "login",
