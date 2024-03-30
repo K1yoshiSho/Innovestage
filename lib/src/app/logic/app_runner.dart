@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:ui';
 
 import 'package:bloc_concurrency/bloc_concurrency.dart' as bloc_concurrency;
 import 'package:flutter/material.dart';
@@ -26,6 +27,7 @@ final class AppRunner
   ) async {
     final binding = WidgetsFlutterBinding.ensureInitialized()
       ..deferFirstFrame();
+    DartPluginRegistrant.ensureInitialized();
 
     // Preserve splash screen
     FlutterNativeSplash.preserve(widgetsBinding: binding);

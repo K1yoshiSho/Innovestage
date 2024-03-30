@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:innovestage/src/common/ui/widgets/expandable_text/expandable_text.dart';
 import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
+import 'package:innovestage/src/common/utils/extensions/string_extension.dart';
+import 'package:innovestage/src/common/utils/global_variables.dart';
+import 'package:innovestage/src/core/localization/localization.dart';
 
 /// InitializationFailedScreen widget
 class InitializationFailedApp extends StatefulWidget {
@@ -32,6 +36,14 @@ class _InitializationFailedAppState extends State<InitializationFailedApp> {
   final _inProgress = ValueNotifier<bool>(false);
 
   @override
+  void didChangeDependencies() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      setState(() {});
+    });
+    super.didChangeDependencies();
+  }
+
+  @override
   void dispose() {
     _inProgress.dispose();
     super.dispose();
@@ -45,6 +57,9 @@ class _InitializationFailedAppState extends State<InitializationFailedApp> {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
+        navigatorKey: navigatorKey,
+        localizationsDelegates: Localization.localizationDelegates,
+        supportedLocales: Localization.supportedLocales,
         home: Scaffold(
           appBar: AppBar(
             title: Text(
@@ -58,12 +73,17 @@ class _InitializationFailedAppState extends State<InitializationFailedApp> {
           body: SingleChildScrollView(
             child: Column(
               children: [
-                Text(
+                ExpandableText(
                   'Error type: ${widget.error}',
+                  maxLines: 4,
                   style: context.theme.textTheme.bodyLarge?.copyWith(
                     color: context.theme.colorScheme.error,
                     fontWeight: FontWeight.w500,
                   ),
+                  expandText:
+                      navigatorKey.currentContext?.l10n.more.capitalize() ?? "",
+                  collapseText:
+                      navigatorKey.currentContext?.l10n.less.capitalize() ?? "",
                 ),
                 const Gap(16),
                 Row(

@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:firebase_core/firebase_core.dart';
+import 'package:innovestage/firebase_options.dart';
 import 'package:innovestage/src/common/configs/constants.dart';
 import 'package:innovestage/src/common/services/app_config.dart';
 import 'package:innovestage/src/feature/initialization/model/environment.dart';
@@ -24,6 +26,11 @@ mixin InitializationSteps {
   /// The initialization steps,
   /// which are executed in the order they are defined.
   final initializationSteps = <String, StepAction>{
+    'Firebase': (progress) async {
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+    },
     'Package Info': (progress) async {
       final packageInfo = await PackageInfo.fromPlatform();
       progress.dependencies.packageInfo = packageInfo;

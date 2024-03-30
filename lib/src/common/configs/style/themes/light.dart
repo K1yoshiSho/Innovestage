@@ -33,6 +33,7 @@ ThemeData getBaseLightTheme({required Color seed}) {
         success: const Color(0xff4CAF50),
         shimmerBase: const Color(0xffB4B4B4),
         shimmerHighlight: Colors.white,
+        fill: const Color(0xff4CAF50),
       ),
     ],
   );

@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gap/gap.dart';
 import 'package:innovestage/src/app/router/router.dart';
 import 'package:innovestage/src/common/utils/extensions/context_extension.dart';
 import 'package:innovestage/src/common/utils/extensions/string_extension.dart';
 import 'package:innovestage/src/common/utils/global_variables.dart';
 import 'package:innovestage/src/feature/auth/ui/pages/registration/registration.dart';
-import 'package:innovestage/src/feature/home/state/counter.dart';
 import 'package:innovestage/src/feature/inspector/inspector_page.dart';
 import 'package:innovestage/src/feature/settings/ui/settings.dart';
 

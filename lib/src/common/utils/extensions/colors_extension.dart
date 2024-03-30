@@ -36,6 +36,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.success,
     required this.shimmerBase,
     required this.shimmerHighlight,
+    required this.fill,
   });
 
   final Color card;
@@ -56,6 +57,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color success;
   final Color shimmerBase;
   final Color shimmerHighlight;
+  final Color fill;
 
   @override
   ThemeExtension<AppColorsExtension> copyWith({
@@ -77,6 +79,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     Color? success,
     Color? shimmerBase,
     Color? shimmerHighlight,
+    Color? fill,
   }) =>
       AppColorsExtension(
         card: card ?? this.card,
@@ -97,6 +100,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
         success: success ?? this.success,
         shimmerBase: shimmerBase ?? this.shimmerBase,
         shimmerHighlight: shimmerHighlight ?? this.shimmerHighlight,
+        fill: fill ?? this.fill,
       );
 
   @override
@@ -128,6 +132,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       shimmerBase: Color.lerp(shimmerBase, other.shimmerBase, t)!,
       shimmerHighlight:
           Color.lerp(shimmerHighlight, other.shimmerHighlight, t)!,
+      fill: Color.lerp(fill, other.fill, t)!,
     );
   }
 }

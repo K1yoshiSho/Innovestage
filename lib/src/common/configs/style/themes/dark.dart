@@ -8,6 +8,62 @@ ThemeData getBaseDarkTheme({required Color seed}) {
       seedColor: seed,
       brightness: Brightness.dark,
     ),
+    textTheme: const TextTheme(
+      labelLarge: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w400,
+        fontSize: 14,
+        color: Color.fromARGB(255, 120, 128, 134),
+      ),
+      labelMedium: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w400,
+        fontSize: 12,
+        color: Color.fromARGB(255, 120, 128, 134),
+      ),
+      labelSmall: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w400,
+        fontSize: 10,
+        color: Color.fromARGB(255, 120, 128, 134),
+      ),
+      titleLarge: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w700,
+        fontSize: 22,
+        color: Colors.white,
+      ),
+      titleMedium: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w600,
+        fontSize: 20,
+        color: Colors.white,
+      ),
+      titleSmall: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w600,
+        fontSize: 18,
+        color: Colors.white,
+      ),
+      bodyMedium: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w500,
+        fontSize: 14,
+        color: Colors.white,
+      ),
+      bodyLarge: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w600,
+        fontSize: 16,
+        color: Colors.white,
+      ),
+      bodySmall: TextStyle(
+        fontFamily: "Gilroy",
+        fontWeight: FontWeight.w400,
+        fontSize: 12,
+        color: Colors.white,
+      ),
+    ),
   ).copyWith(
     appBarTheme: const AppBarTheme(
       scrolledUnderElevation: 0,
@@ -34,6 +90,7 @@ ThemeData getBaseDarkTheme({required Color seed}) {
         success: const Color(0xff4CAF50),
         shimmerBase: const Color(0xffB4B4B4),
         shimmerHighlight: Colors.white,
+        fill: const Color(0xff4CAF50),
       ),
     ],
   );
